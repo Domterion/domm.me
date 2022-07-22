@@ -37,6 +37,10 @@ export default function Layout({ children, home }) {
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <div>
+              <Link href="https://github.com/Domterion">GitHub</Link> •{" "}
+              <Link href="https://twitter.com/mellowmarshe">Twitter</Link>
+            </div>
           </>
         ) : (
           <>
